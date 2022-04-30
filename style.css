@@ -1,0 +1,45 @@
+*{
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.omo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50;
+}
+.omo1{
+    text-align: center;
+}
+img{
+    justify-content: right;
+
+}
+.card{
+    display: flex;
+
+}
+.card1{
+    border: 193px 129px 193px 129px;
+    border: solid;
+    width: 40%;
+    display: flex;
+
+}
+.card2{
+    border: 193px 129px 193px 129px;
+    border: solid;
+    width: 40%;
+}
+.card3{
+    border: 193px 129px 193px 129px;
+    border: solid;
+    width: 40%;
+}
+.card4{
+    border: 193px 129px 193px 129px;
+    border: solid;
+    width: 40%;
+}
