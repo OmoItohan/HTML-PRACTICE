@@ -17,29 +17,62 @@ img{
     justify-content: right;
 
 }
-.card{
+main{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.card{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+    padding: 35px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
+    border-top: 7px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.card:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
 }
 .card1{
-    border: 193px 129px 193px 129px;
-    border: solid;
-    width: 40%;
-    display: flex;
+     border-top: 7px solid hsl(180, 62%, 55%);
+    margin-right: 40px;
 
 }
 .card2{
-    border: 193px 129px 193px 129px;
-    border: solid;
-    width: 40%;
+    border-top: 7px solid hsl(0, 78%, 62%);
 }
 .card3{
-    border: 193px 129px 193px 129px;
-    border: solid;
-    width: 40%;
+    border-top: 7px solid hsl(34, 97%, 64%);
 }
 .card4{
-    border: 193px 129px 193px 129px;
-    border: solid;
-    width: 40%;
+    border-top: 7px solid hsl(212, 86%, 64%);
+    margin-left: 40px;
+}
+img{
+    /* position: absolute; */
+    margin-top: 63px;
+    margin-left: 265px;
 }
